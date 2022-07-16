@@ -11,7 +11,7 @@
 </head>
 <body>
   <div class="container">  
-    <form id="contact" action="mailto: sfwalden@gmail.com" method="post">
+    <form id="contact" action="" method="post" data-netlify="true" netlify-honeypot="bot-field">
       <h3>Quick Contact</h3>
       <h4>Contact us today, and get reply with in 24 hours!</h4>
  
@@ -30,10 +30,10 @@
       <fieldset>
         <textarea name="message" placeholder="Type your Message Details Here..." tabindex="5"></textarea>
       </fieldset>
-      <div>
+      <!-- <div>
          <p class="success"> <?php echo $success;  ?></p>
          <p class="failed"> <?php echo $failed;  ?></p>
-      </div>
+      </div> -->
       <fieldset>
         <button type="submit" name="submit" id="contact-submit" data-submit="...Sending">Submit Now</button>
       </fieldset>
